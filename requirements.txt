@@ -1,0 +1,7 @@
+numpy >=1
+matplotlib >=2
+pillow
+ipython >=6.1.0
+pandas
+plotly
+opencv-python
