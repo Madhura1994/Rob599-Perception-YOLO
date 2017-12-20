@@ -1,0 +1,11 @@
+#!/bin/bash
+     touch train.txt
+     for z in *.jpg; do               # loop over files starting with test and fq extension
+       	readlink -f $z | tee -a train.txt             
+     done                                                                                
+         
+      
+                                            
+                                            
+ 
+
